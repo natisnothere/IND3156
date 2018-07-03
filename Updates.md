@@ -14,5 +14,5 @@ Friday (6/29):
 			<li>Learned a little about coding animations in HTML.</li>
 </ul>			
 Saturday (6/30): Still can't understand how github works to display more than the basic code.
-
+<p>&emsp;</p>
 Monday (7/2): Added more dances and updated to final sidebars.
