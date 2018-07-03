@@ -5,14 +5,20 @@ Before starting the project I looked into types of code that translate from comp
 
 Friday (6/29): 
 <ul>
-			<li>Revamted most of the website.</li>
-			<li>Completely changed home page.</li>
-			<li>Added About Us page.</li>
-			<li>Added Choreography page and learned/added a dropdown menu.</li>
-			<li>Added dances.</li>
-			<li>Made plans for adding animation and changes to Example Videos page.</li>
-			<li>Learned a little about coding animations in HTML.</li>
+	<li>Revamted most of the website.</li>
+	<li>Completely changed home page.</li>
+	<li>Added About Us page.</li>
+	<li>Added Choreography page and learned/added a dropdown menu.</li>
+	<li>Added dances.</li>
+	<li>Made plans for adding animation and changes to Example Videos page.</li>
+	<li>Learned a little about coding animations in HTML.</li>
 </ul>			
+<p>&emsp;</p>
 Saturday (6/30): Still can't understand how github works to display more than the basic code.
 <p>&emsp;</p>
-Monday (7/2): Added more dances and updated to final sidebars.
+Monday (7/2): 
+<ul>
+	<li>Added more dances and updated to final sidebars.</li>
+	<li>Learned that knowing HTML comes in handing when dealing with github.</li>
+	<li>I still find github increadibly annoying.</li>
+</ul>
