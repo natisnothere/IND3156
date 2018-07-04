@@ -1,0 +1,252 @@
+/*this entire document is all about making the HTML look pretty!*/
+
+/*This group covers the background image and main text formating*/
+body {
+  Background-image: url('file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/bg1.jpg');
+  color: #32CD32;
+  font-size: 87.5%;
+  font-family: Arial, 'Lucida Sans Unicode';
+  line-height: 1.5;
+  text-align: left;
+}
+
+/*This makes the command <a></a> not add anything extra when it's put around text.*/
+a{
+  text-decoration: none;
+}
+
+/*This allows the background color of text with <a></a> around it to change color when your mouse hovers over it or if that is the current link you are visiting*/
+a:hover, a:active{
+  background-color: #006F00;
+  color: #F5F5F5;
+}
+
+/*This determines the size of the body*/
+.body {
+  margin: 0 auto;
+  width: 70%;
+  clear: both;
+}
+
+/*This determines the size of the header image(the rainbow that says Irish Dancing)*/
+.mainheader img {
+  width: 30%;
+  height: auto;
+  margin: 2% 0;
+}
+
+/*This determines the color and size of the menu*/
+.mainheader nav{
+  background-color: #747D80;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*The menu is actually a form of list and this is what takes away the bullet point*/
+.mainheader nav ul{
+  list-style: none;
+  margin: 0 auto;  
+}
+
+/*This determines the display of the menu*/
+.mainheader nav ul li{
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+/*This determines the size of each tab and the color of the text*/
+.mainheader nav a:link, .mainheader nav a:visited {
+  color: #F5F5F5;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+/*This allows the background color of a tab on the menu to change color when your mouse hovers over it or if that is the current tab you are visiting*/
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited{
+  background-color: #006F00;
+  text-shadow: none;
+
+}
+
+/*This determines the size of each tab*/
+.mainheader nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*This determines the size and color of the dropdown menu and makes it not seen unless hovered over*/
+.mainheader nav ul li ul {
+  background-color: #747D80;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/*This activates the dropdown menu when you hover over it*/
+.mainheader nav ul li:hover ul {
+  display: block;
+}
+
+/*Determines the line size of the Title text in posts*/
+.maincontent {
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*Determines the line size of the 'paragraphs' in the text in posts*/
+.content{
+  width:70%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/*Determines the color and size of the first post on a page*/
+.topcontent{
+  background-color: #E1FFE1;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+  
+}
+
+/*Determines the color and size of the second post on a page*/
+.middlecontent{
+  background-color: #E1FFE1;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+/*Determines the color and size of the third post on a page*/
+.bottomcontent{
+  background-color: #E1FFE1;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+/*Determines the font format for the text between the title and the 'paragraphs' in the post*/
+.post-info {
+  font-style: italic;
+  color: #B8B8B8;
+  font-size: 85%;
+}
+
+/*Determines the color, size, and location of the first side post on a page*/
+.top-sidebar{
+  width: 21%;
+  float: left;
+  background-color: #E1FFE1;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 2% 0 2% 3%;
+  padding: 2% 3%;
+}
+
+/*Determines the color, size, and location of the second side post on a page*/
+.middle-sidebar{
+  width: 21%;
+  float: left;
+  background-color: #E1FFE1;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 2% 3%;
+  padding: 2% 3%;
+}
+
+/*Determines the color, size, and location of the third side post on a page*/
+.bottom-sidebar{
+  width: 21%;
+  float: left;
+  background-color: #E1FFE1;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 2% 3%;
+  padding: 2% 3%;
+}
+
+/*Determines the color, size, and location of the bar at the bottom of a page*/
+.mainfooter {
+  width: 100%;
+  float: left;
+  background-color: #747D80;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 2% 0 ;
+}
+
+/*Determines the color and size of the text in the bar at the bottom of a page*/
+.mainfooter p {
+  width: 92%;
+  margin: 0 auto;
+  color: #F5F5F5;
+}
+
+/*Allows the page to work with different screen sizes and window size changes*/
+@media only screen and (min-width: 150px) and (max-width: 500px)
+{
+  .body {
+    width: 70%;
+    font-size: 95%;
+  }
+  .mainheader img {
+    width: 30%;
+  }
+  .mainheader nav{
+    height: 160px;
+  }
+  .mainheader nav ul{
+    padding-left:0;
+  }
+  .mainheader nav ul li{
+    width:100%;
+    text-align:center;
+  }
+  .mainheader nav a:link, .mainheader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+  }
+  .maincontent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+  .topcontent{
+    background-color: #E1FFE1;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+  }
+  .bottomcontent{
+    background-color: #E1FFE1;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+  }
+}

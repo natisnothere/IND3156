@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!The opening to any HTML file and specifies the language to English>
+<html lang='en'><!DOCTYPE html>
+<!The opening to any HTML file and specifies the language to English.>
+<html lang='en'>
+<!Links the style sheet so the the website looks pretty and names the tab on your browser to 'Irish Dance Guide'.>
+<head>
+  <title>Irish Dance Guide</title>
+  <meta charset='utf-8' />
+  <link rel='stylesheet' href='style.css' type='text/css' />
+  <meta name='viewport' content='width=device-width, initial scale=1.0'> 
+</head>
+<!This section covers the majority of what is seen on the webpage.>
+<body class='body'>
+  <!This adds the image at the top of the page and adds the menu bar to the page. The class specifies what style from the style sheet to apply.>
+  <header class='mainheader'>
+    <!This adds the image to the page and links to where to find it.>
+    <img src='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/yes.png'>
+      <!Starts a list that becomes the menu and links to where the files can be found.>
+      <nav><ul>
+        <li class='active'><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/IrishDanceWebsite.html'>Home</a></li>
+        <li><a href="#">Choreography</a>
+          <!Starts a sub-list to become a dropdown menu.>
+          <ul>
+          <li><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/Choreography.html'>All</a></li>
+          <li><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/List%20of%20Jigs.html'>Jigs</a></li>
+          <li><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/List%20of%20Reels.html'>Reels</a></li>   
+          <li><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/Other.html'>Other</a></li>          
+          </ul></li>
+        <li><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/Example%20Videos.html'>Example Videos</a></li>
+        <li><a href='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Menu/About%20Us.html'>About Us</a></li>
+      </ul></nav>
+  </header>
+  <!This is the start of the posts.>
+  <div class='maincontent'>
+    <div class='content'>
+      <article class='topcontent'>
+        <header>
+          <!This case the 'href' doesn't link to anything but is used to change the color of the text. 'h2' makes it known that this is the header text of the post.>
+          <h2><a href='#' title='first post'>Welcome!</a></h2>
+        </header>
+        <!This is the text and image that is seen in the first post. This image here is linked in the same manor as the header or 'logo' image is.>
+        <content>
+            <p>This is a site dedicated to being a tool in teaching Irish Ceili Dancing.</p>
+            <img src='file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/home.jpg'>
+            <p>On this website is Choreography, Caller's Notes, and some Example Videos.</p>
+        </content>
+      </article>
+      <!This is the almost the same as above but this post has a YouTube video instead of an image. To code a YouTube video into HTML is very simple because you click the embed option of the various sharing options under a YouTube video and it give you the code to insert in to your HTML file.>
+      <article class='bottomcontent'>
+	    <header>
+		 <h2><a href='#' title='third post'>What is Irish Ceili Dancing?</a></h2> 
+		</header>
+		<content>
+	     <p>Irish Ceili dancing is a form of traditional partner dance. The Example Videos tab on this site has some examples of what Ceili dancing looks like. Below is a video by MarkFrench giving a good introduction to Ceili dancing.</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/BfH6yywpM28" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </content>
+	  </article>
+    </div>
+  </div>
+  <!This is the first side post and aside from the different text and placement is the same as the other two side posts. The main components of these posts have been used above so I'll skip explaining them.>
+  <aside class='top-sidebar'>
+    <article>
+      <h2>Popular Beginner Dances!</h2>
+      <ul>
+	     <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Haymakers.html">Haymaker's Jig</a></li>
+		 <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Siege%20of%20Ennis.html">Siege of Ennis</a></li>
+         <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Dashing%20White%20Serageant.html">Dashing White Sergeant</a></li></ul>
+    </article>
+  </aside>
+  <aside class='middle-sidebar'>
+    <article>
+      <h2>Popular Intermediate Dances!</h2>
+        <ul>
+	     <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Fairy%20Reel.html">Fairy Reel</a></li>
+		 <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Long%20Set%20of%20Reels.html">Long Set of Reels</a></li>
+         <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Waves%20of%20Tory.html">Waves of Tory</a></li></ul>    
+      </article>
+  </aside>
+  <aside class='bottom-sidebar'>
+    <article>
+      <h2>Popular Expert Dances!</h2>
+        <ul>
+	     <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/High%20Caul%20Cap.html">High Caul Cap</a></li>
+		 <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Ballyvourney.html">Ballyvourney Jig</a></li>
+         <li><a href="file:///Users/silvan17/Desktop/Irish%20Dance%20App/Irish%20Web/Dances/Eight-Hand%20Jig.html">Eight-Hand Jig</a></li></ul>    
+    </article>
+  </aside>
+  <!This is the bar at the bottom of the page. The '&copy;' symbol adds the copyright symbol.>
+  <footer class='mainfooter'>
+    <p>Copyright &copy; 2018 </p>
+  </footer>
+</body>
+</html>
