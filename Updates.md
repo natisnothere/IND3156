@@ -29,9 +29,10 @@ Links that I used:
 	<li><a href = "https://www.w3schools.com/html/html_formatting.asp">Formating HTML text</a></li>
 	<li><a href = "https://www.wikihow.com/Insert-Spaces-in-HTML">Learning How to indent</a></li>
 	<li><a href = "https://www.w3schools.com/html/html_styles.asp">Learning a better way to Indent</a></li>
+	<li><a href = "https://html.com/tags/comment-tag/">Adding comments to HTML</a></li>
+	<li><a href = "https://www.xanthir.com/b4U10">Adding comments to CSS</a></li>
 </ul>
 Links that I plan to use:
 <ul>
-	<li><a href = "https://html.com/tags/comment-tag/">Adding comments</a></li>
 	<li><a href = "https://www.w3schools.com/css/css3_animations.asp">Adding animations</a></li>
 </ul>
