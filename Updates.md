@@ -22,3 +22,16 @@ Monday (7/2):
 	<li>Learned that knowing HTML comes in handing when dealing with github.</li>
 	<li>I still find github increadibly annoying.</li>
 </ul>
+<p>&emsp;</p>
+Links that I used:
+<ul>
+	<li><a href = "https://www.youtube.com/watch?v=rgUp302f_lY">Making a dropdown menu</a></li>
+	<li><a href = "https://www.w3schools.com/html/html_formatting.asp">Formating HTML text</a></li>
+	<li><a href = "https://www.wikihow.com/Insert-Spaces-in-HTML">Learning How to indent</a></li>
+	<li><a href = "https://www.w3schools.com/html/html_styles.asp">Learning a better way to Indent</a></li>
+</ul>
+Links that I plan to use:
+<ul>
+	<li><a href = "https://html.com/tags/comment-tag/">Adding comments</a></li>
+	<li><a href = "https://www.w3schools.com/css/css3_animations.asp">Adding animations</a></li>
+</ul>
