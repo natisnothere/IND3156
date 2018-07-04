@@ -181,21 +181,6 @@ a:hover, a:active{
   color: #F5F5F5;
 }
 
-  .fraction{
-	display: inline-block;
-	line-height: 78%;
-  }
-  
-  .example{
-	  height: 75%;
-	  width: 75%;
-  }
-
-  .answer{
-	  height: 110%;
-	  width: 110%;
-  }
-  
 @media only screen and (min-width: 150px) and (max-width: 500px)
 {
   .body {
@@ -227,7 +212,7 @@ a:hover, a:active{
     -webkit-border-radius: 5px;
   }
   .topcontent{
-    background-color: #DEFEFF;
+    background-color: #E1FFE1;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -235,7 +220,7 @@ a:hover, a:active{
     margin-top: 2%;
   }
   .bottomcontent{
-    background-color: #DEFEFF;
+    background-color: #E1FFE1;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
