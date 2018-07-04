@@ -28,6 +28,11 @@ Tuesday (7/3):
 	<li>Added an annotated verision of the style sheet file (css) and the home page. I only did one of the pages as to do 		  20+ would have been very repetative since the same components are on most of the pages.</li>
 </ul>
 <p>&emsp;</p>
+Wednesday (7/4):
+<ul>
+	<li>Made a downloadable zip file so anyone can download then access the website.</li>
+</ul>
+<p>&emsp;</p>
 Links that I used:
 <ul>
 	<li><a href = "https://www.youtube.com/watch?v=rgUp302f_lY">Making a dropdown menu</a></li>
